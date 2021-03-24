@@ -71,7 +71,7 @@ Label Example Documentation - https://docs.trilio.io/kubernetes/overview/getting
 
 ### Scenario 2: Helm based Backup and Recovery 
 
-Use a Helm deployed application of your choosing or use a "cockroachdb" application provided in this repo - ***ADD YAML NAME
+Use a Helm deployed application of your choosing or use a "cockroachdb" application provided in this repo - cockroachdb-values.yaml
 
 Helm Example Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#helm-example 
 
