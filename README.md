@@ -17,7 +17,7 @@ TVK Install Documentation - https://docs.trilio.io/kubernetes/use-triliovault/in
 
 ### 2. Get a license
 
-Ask your Solutions Architect or Solutions Engineer for a TVK license for each cluster used for the POC
+Ask your Solutions Architect or Solutions Engineer for a TVK license for each cluster used for the POC. 
 
 TVK Lincensing Documentation - https://docs.trilio.io/kubernetes/overview/licensing
 
@@ -40,7 +40,7 @@ Accessing the UI Documentation - https://docs.trilio.io/kubernetes/use-triliovau
 
 Access TVK through Openshift by navigating to Operators->Installed Operators-> Trilio
 
-Here users can create Custom Resources (Targets, BackupPlans, etc.) and Perform Backup and Restores.  Monitoring of Backup and Restore summaries are limited in the OCP UI
+Here users can create Custom Resources (Targets, BackupPlans, etc.) and Perform Backup and Restores.  Monitoring of Backup and Restore summaries are limited in the OCP UI. 
 
 ### 6. Create a Target
 
