@@ -26,7 +26,7 @@ TVK Lincensing Documentation - https://docs.trilio.io/kubernetes/overview/licens
 TVK requires a CSI Driver with Snapshot enable capabilties. Ensure the proper CSI Driver is configured with your cluster or use a Hostpath CSI Driver as outlined in the TVK Documentation.  Ensure your Storage Class for your CSI is the only Storage Class set to "Default".  Otherwise proper provisioning may not occur.  
 
 List of CSI Drivers - https://kubernetes-csi.github.io/docs/drivers.html 
-Locate your CSI driver and see "Snapshotting" under the "Other Features" column
+- Locate your CSI driver and see "Snapshotting" under the "Other Features" column
 
 HostPath CSI Driver for TrilioVault for Kubernetes Documentation - https://docs.trilio.io/kubernetes/appendix/csi-drivers/hostpath-for-tvk 
 
@@ -47,6 +47,7 @@ Here users can create Custom Resources (Targets, BackupPlans, etc.) and Perform 
 Configure you NFS or S3 bucket as your Target for storing backups
 
 Create a Target Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#create-a-target 
+
 Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/custom-resource-definitions-application-1/triliovault-crds#backup-target 
 
 ## Test Application-centric Backup and Recovery
