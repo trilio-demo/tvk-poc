@@ -26,6 +26,7 @@ TVK Lincensing Documentation - https://docs.trilio.io/kubernetes/overview/licens
 TVK requires a CSI Driver with Snapshot enable capabilties. Ensure the proper CSI Driver is configured with your cluster or use a Hostpath CSI Driver as outlined in the TVK Documentation.  Ensure your Storage Class for your CSI is the only Storage Class set to "Default".  Otherwise proper provisioning may not occur.  
 
 List of CSI Drivers (locate your CSI driver and see "Snapshotting" under the "Other Features" column) - https://kubernetes-csi.github.io/docs/drivers.html 
+
 HostPath CSI Driver for TrilioVault for Kubernetes Documentation - https://docs.trilio.io/kubernetes/appendix/csi-drivers/hostpath-for-tvk 
 
 ### 4. Access TVK UI
