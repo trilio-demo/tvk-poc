@@ -11,7 +11,7 @@
 
 ### 1. Install TVK
 
-TVK install can be done through Helm or OCP Operator Hub.  Be sure to run the "Preflight Check" scripts before installing as outlined in the documentation. 
+TVK install can be done through Helm or OCP Operator Hub.  Be sure to run the "Preflight Check" scripts before installing, as outlined in the documentation. 
 
 TVK Install Documentation - https://docs.trilio.io/kubernetes/use-triliovault/installing-triliovault 
 
