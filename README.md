@@ -71,9 +71,9 @@ Managemenr Console Documentation - https://docs.trilio.io/kubernetes/use-triliov
 Use an application of your choosing or use the MySQL sample application provided in this repo - k8s-demo-app.yaml 
 
 YAML files for this scenario are already present in this repo: 
-mysql-label-backupplan.yaml
-mysql-label-backup.yaml
-demo-restore.yaml
+'mysql-label-backupplan.yaml
+'mysql-label-backup.yaml
+'demo-restore.yaml
 
 Label Example Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#label-example 
 
