@@ -54,7 +54,7 @@ Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/c
 
 It is recommend to first test the scenarios of your choosing in the CLI, then test using the TVK UI.  Testing in the CLI will provide technical insight into Custom Resource creation and Backup/Recovery performance.  Once complete, reproduce scenarios in the TVK UI for a simplified experience, enhanced with monitoring capabilties.  
 
-### Three ways to Retore
+### Three ways to Restore
 
 Applications in each scenario can be retored to a **new namespace, different namespace, or different cluster**. Explore any or all restore options with the 4 testing scenarios listed below.  See example YAML files for each restore option in the link below. 
 
