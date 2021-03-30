@@ -17,7 +17,7 @@ TVK Install Documentation - https://docs.trilio.io/kubernetes/use-triliovault/in
 
 ### 2. Get a license
 
-Ask your Solutions Architect or Solutions Engineer for a TVK license for each cluster used for the POC. 
+Ask your Solutions Architect or Solutions Engineer for a TVK license for each cluster used for the POC. Additionally, you can get a Free Trial or Basic Edition license at: trilio.io/plans/
 
 TVK Lincensing Documentation - https://docs.trilio.io/kubernetes/overview/licensing
 
