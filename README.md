@@ -64,7 +64,7 @@ Restore CRD examples - https://docs.trilio.io/kubernetes/architecture/custom-res
 
 See all sub-sections of the Management Console documentation to learn how to navigate the TVK UI when performing actions for each testing scenario.
 
-Managemenr Console Documentation - https://docs.trilio.io/kubernetes/use-triliovault/user-interface 
+Management Console Documentation - https://docs.trilio.io/kubernetes/use-triliovault/user-interface 
 
 ### Scenario 1: Label based Backup and Recovery
 
