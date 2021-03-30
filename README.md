@@ -3,7 +3,7 @@
 
 ## Requirements:
 
-- One of more clusters running Kubernetes v1.17+
+- One or more clusters running Kubernetes v1.17+
 - CSI Driver with Snapshot enabled functionality (Hostpath option available, see step 3) 
 - NFS or S3 bucket for storing your backups 
 
