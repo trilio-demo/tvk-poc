@@ -1,5 +1,5 @@
 
-# Step-by-step TVK POC
+# TVK Self-Guided POC
 
 ## Requirements:
 
@@ -23,7 +23,7 @@ TVK Lincensing Documentation - https://docs.trilio.io/kubernetes/overview/licens
 
 ### 3. Set up CSI Driver
 
-TVK requires a CSI Driver with Snapshot enable capabilties. Ensure the proper CSI Driver is configured with your cluster or use a Hostpath CSI Driver as outlined in the TVK Documentation.  Ensure the Storage Class for your CSI is the only Storage Class set to "Default", otherwise proper provisioning may not occur.  
+TVK requires a CSI Driver with Snapshot enable capabilties. Ensure the proper CSI Driver is configured with your cluster or use a Hostpath CSI Driver as outlined in the TVK Documentation.  It is only recommended to use Hostpath if no other CSI drivers are available. Ensure the Storage Class for your CSI is the only Storage Class set to "Default", otherwise proper provisioning may not occur.  
 
 List of CSI Drivers - https://kubernetes-csi.github.io/docs/drivers.html 
 - Locate your CSI driver and see "Snapshotting" under the "Other Features" column
@@ -36,7 +36,7 @@ Set up the TVK UI with DNS or Non-DNS/Local Environments.  Through the TVK UI us
 
 Accessing the UI Documentation - https://docs.trilio.io/kubernetes/use-triliovault/user-interface/accessing-the-ui 
 
-### 5. Access TVK in OCP UI
+### 5. Access TVK in OCP UI (OCP users only) 
 
 Access TVK through Openshift by navigating to Operators->Installed Operators-> Trilio
 
@@ -52,7 +52,7 @@ Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/c
 
 ## Test Application-centric Backup and Recovery
 
-It is recommend to first test the scenarios of your choosing in the CLI, then test using the TVK UI.  Testing in the CLI will provide technical insight into Custom Resource creation and Backup/Recovery performance.  Once complete, reproduce scenarios in the TVK UI for a simplified experience, enhanced with monitoring capabilties.  
+Test the scenarios using either CLI or the TVK UI.  Testing in the CLI will provide technical insight into Custom Resource creation and Backup/Recovery performance.  Once complete, reproduce scenarios in the TVK UI for a simplified experience, enhanced with monitoring capabilties.  
 
 ### Three ways to Restore
 
@@ -62,7 +62,7 @@ Restore CRD examples - https://docs.trilio.io/kubernetes/architecture/custom-res
 
 ### Using the TVK UI
 
-See all sub-sections of the Management Console documentation to learn how to navigate the TVK UI when performing actions for each testing scenario.
+Review all sub-sections of the Management Console documentation to learn how to navigate the TVK UI when performing actions for each testing scenario.
 
 Management Console Documentation - https://docs.trilio.io/kubernetes/use-triliovault/user-interface 
 
@@ -105,7 +105,7 @@ Thank you!
 
 ### TVK UI Setup
 
-When using OCP, TVK UI can NOT be set up using Networking->Routes.  This is due to Trilio's unique Ingress Controller and the architecture design of the OCP used Ingress Controller.  Instead please follow the TVK Documentation on "Accessing the UI" - https://docs.trilio.io/kubernetes/use-triliovault/user-interface/accessing-the-ui 
+For OCP users, TVK UI can NOT be set up using Networking->Routes.  This is due to Trilio's unique Ingress Controller and the architecture design of the OCP used Ingress Controller.  Instead please follow the TVK Documentation on "Accessing the UI" - https://docs.trilio.io/kubernetes/use-triliovault/user-interface/accessing-the-ui 
 
 ### TVK License
 
