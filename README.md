@@ -34,7 +34,7 @@ HostPath CSI Driver for TrilioVault for Kubernetes Documentation - https://docs.
 
 Set up the TVK UI with DNS or Non-DNS/Local Environments.  Through the TVK UI users can create Custom Resources (Targets, BackupPlans, etc), perform Backups and Restores, and monitor the success and logging of Backup and Restore summaries.  
 
-Accessing the UI Documentation - https://docs.trilio.io/kubernetes/use-triliovault/user-interface/accessing-the-ui 
+Accessing the UI Documentation - https://docs.trilio.io/kubernetes/management-console/user-interface/accessing-the-ui
 
 ### 5. Access TVK in OCP UI (OCP users only) 
 
