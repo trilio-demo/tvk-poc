@@ -105,7 +105,7 @@ Thank you!
 
 ### TVK UI Setup
 
-For OCP users, TVK UI can NOT be set up using Networking->Routes.  This is due to Trilio's unique Ingress Controller and the architecture design of the OCP used Ingress Controller.  Instead please follow the TVK Documentation on "Accessing the UI" - https://docs.trilio.io/kubernetes/use-triliovault/user-interface/accessing-the-ui 
+For OCP users, TVK UI can NOT be set up using Networking->Routes.  This is due to Trilio's unique Ingress Controller and the architecture design of the OCP used Ingress Controller.  Instead please follow the TVK Documentation on "Accessing the UI"
 
 ### TVK License
 
