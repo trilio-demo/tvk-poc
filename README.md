@@ -101,7 +101,7 @@ For any additional questions please contact your Trilio Solutions Architect, Sol
 
 Thank you! 
 
-## Known Issues and Workarounds
+## Additional Notes
 
 ### TVK UI Setup
 
