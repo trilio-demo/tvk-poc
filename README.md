@@ -50,7 +50,7 @@ Create a Target Documentation - https://docs.trilio.io/kubernetes/overview/getti
 
 Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/custom-resource-definitions-application-1/triliovault-crds#backup-target 
 
-## Test Application-centric Backup and Recovery
+## Test Application-Centric Backup and Recovery
 
 Test the scenarios using either CLI or the TVK UI.  Testing in the CLI will provide technical insight into Custom Resource creation and Backup/Recovery performance.  Once complete, reproduce scenarios in the TVK UI for a simplified experience, enhanced with monitoring capabilties.  
 
