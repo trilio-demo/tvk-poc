@@ -50,6 +50,8 @@ Create a Target Documentation - https://docs.trilio.io/kubernetes/getting-starte
 
 Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/apis-and-command-line-reference/custom-resource-definitions-application-1/triliovault-crds#example-1-s3-target-aws
 
+For versions prior to 2.6.5 we can use the file https://github.com/trilio-demo/tvk-self-guided-poc/blob/main/s3-target-example.yaml to create the target.
+
 ## Test Application-Centric Backup and Recovery
 
 Test the scenarios using either CLI or the TVK UI.  Testing in the CLI will provide technical insight into Custom Resource creation and Backup/Recovery performance.  Once complete, reproduce scenarios in the TVK UI for a simplified experience, enhanced with monitoring capabilties.  
