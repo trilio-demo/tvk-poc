@@ -46,9 +46,9 @@ Here users can create Custom Resources (Targets, BackupPlans, etc.) and Perform 
 
 Configure you NFS or S3 bucket as your Target for storing backups
 
-Create a Target Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#create-a-target 
+Create a Target Documentation - https://docs.trilio.io/kubernetes/getting-started/getting-started-1#step-2-create-a-target
 
-Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/custom-resource-definitions-application-1/triliovault-crds#backup-target 
+Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/apis-and-command-line-reference/custom-resource-definitions-application-1/triliovault-crds#example-1-s3-target-aws
 
 ## Test Application-Centric Backup and Recovery
 
