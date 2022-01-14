@@ -1,0 +1,14 @@
+apiVersion: triliovault.trilio.io/v1
+kind: Target
+metadata:
+  name: demo-s3-target
+spec:
+  type: ObjectStore
+  vendor: AWS
+  objectStoreCredentials:
+    region: us-east-1
+    bucketName: trilio-browser-test
+    credentialSecret:
+      name: sample-secret
+      namespace: TARGET_NAMESPACE
+  thresholdCapacity: 5Gi
