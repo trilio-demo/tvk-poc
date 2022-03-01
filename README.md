@@ -34,7 +34,7 @@ HostPath CSI Driver for TrilioVault for Kubernetes Documentation - https://docs.
 
 Set up the TVK UI with DNS or Non-DNS/Local Environments.  Through the TVK UI users can create Custom Resources (Targets, BackupPlans, etc), perform Backups and Restores, and monitor the success and logging of Backup and Restore summaries.  
 
-Accessing the UI Documentation - https://docs.trilio.io/kubernetes/management-console/user-interface/accessing-the-ui
+Accessing the UI Documentation - https://docs.trilio.io/kubernetes/management-console-ui/prerequisites/accessing-the-ui
 
 ### 5. Access TVK in OCP UI (OCP users only) 
 
@@ -46,11 +46,11 @@ Here users can create Custom Resources (Targets, BackupPlans, etc.) and Perform 
 
 Configure you NFS or S3 bucket as your Target for storing backups
 
-Create a Target Documentation - https://docs.trilio.io/kubernetes/getting-started/getting-started-1#step-2-create-a-target
+Create a Target Documentation - https://docs.trilio.io/kubernetes/getting-started-3/getting-started/getting-started-1#step-2-create-a-target
 
-Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/apis-and-command-line-reference/custom-resource-definitions-application-1/triliovault-crds#example-1-s3-target-aws
+Target Examples Documentation - https://docs.trilio.io/kubernetes/architecture/apis-and-command-line-reference/custom-resource-definitions-application-1/triliovault-crds#backup-target
 
-For versions prior to 2.6.5 we can use the file https://github.com/trilio-demo/tvk-self-guided-poc/blob/main/s3-target-example.yaml to create the target.
+(For TVK versions prior to 2.6.5 (where S3 based targets had access/secret keys as part of the target definition, later versions use secrets) we can use the file https://github.com/trilio-demo/tvk-self-guided-poc/blob/main/s3-target-example.yaml to create the target.
 
 ## Test Application-Centric Backup and Recovery
 
@@ -60,13 +60,13 @@ Test the scenarios using either CLI or the TVK UI.  Testing in the CLI will prov
 
 Applications in each scenario can be retored to a **new namespace, different namespace, or different cluster**. Explore any or all restore options with the 4 testing scenarios listed below.  See example YAML files for each restore option in the link below. 
 
-Restore CRD examples - https://docs.trilio.io/kubernetes/architecture/custom-resource-definitions-application-1/triliovault-crds#restore 
+Restore CRD examples - https://docs.trilio.io/kubernetes/architecture/apis-and-command-line-reference/custom-resource-definitions-application-1/triliovault-crds#restore
 
 ### Using the TVK UI
 
 Review all sub-sections of the Management Console documentation to learn how to navigate the TVK UI when performing actions for each testing scenario.
 
-Management Console Documentation - https://docs.trilio.io/kubernetes/management-console/user-interface
+Management Console Documentation - https://docs.trilio.io/kubernetes/management-console-ui/navigating-intro
 
 ### Scenario 1: Label based Backup and Recovery
 
@@ -77,25 +77,25 @@ mysql-label-backupplan.yaml
 mysql-label-backup.yaml  
 demo-restore.yaml  
 
-Label Example Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#label-example 
+Label Example Documentation - https://docs.trilio.io/kubernetes/getting-started-3/getting-started/getting-started-1#step-4.1-label-example
 
 ### Scenario 2: Helm based Backup and Recovery 
 
 Use a Helm deployed application of your choosing or use a "cockroachdb" application provided in this repo - cockroachdb-values.yaml
 
-Helm Example Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#helm-example 
+Helm Example Documentation - https://docs.trilio.io/kubernetes/getting-started-3/getting-started/getting-started-1#step-4.2-helm-example
 
 ### Scenario 3: Operator based Backup and Recovery
 
 Use an Operator deployed application of your choosing or install the demo-etcd-operator provided in the TVK documentation link below. 
 
-Operator Example Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#operator-example 
+Operator Example Documentation - https://docs.trilio.io/kubernetes/getting-started-3/getting-started/getting-started-1#step-4.3-operator-example
 
 ### Scenario 4: Namespace based Backup and Recovery
 
 Use an application of your choosing or use the Wordpress application provided in the TVK documenation link below. 
 
-Namespace Example Documentation - https://docs.trilio.io/kubernetes/overview/getting-started#namespace-example
+Namespace Example Documentation - https://docs.trilio.io/kubernetes/getting-started-3/getting-started/getting-started-1#step-4.4-namespace-example
 
 ## Conclusion
 
